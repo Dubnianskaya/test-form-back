@@ -1,13 +1,14 @@
-CREATE TABLE test.test (
-	id INT(10) unsigned auto_increment NOT NULL,
-    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE current_timestamp() NOT NULL,
-	name varchar(100) NOT NULL,
-	mail varchar(100) NOT NULL,
-    message TEXT NOT NULL,
-	CONSTRAINT test_PK PRIMARY KEY (id)
+CREATE TABLE ijd3l1f1cuhrpy7f.test (
+	id int(10) unsigned auto_increment NOT NULL,
+	createdAt timestamp DEFAULT current_timestamp() NOT NULL,
+	updatedAt timestamp DEFAULT current_timestamp() on update current_timestamp() NOT NULL,
+	name varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+	mail varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+	message text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+	CONSTRAINT `PRIMARY` PRIMARY KEY (id)
 )
 ENGINE=InnoDB
 DEFAULT CHARSET=utf8mb4
-COLLATE=utf8mb4_general_ci;
+COLLATE=utf8mb4_general_ci
+COMMENT='';
 
